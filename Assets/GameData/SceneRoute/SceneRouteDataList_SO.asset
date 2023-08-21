@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5258fdfeb654c084eaffa4a83a67d675, type: 3}
+  m_Name: SceneRouteDataList_SO
+  m_EditorClassIdentifier: 
+  sceneRouteList:
+  - fromSceneName: 01.Field
+    gotoSceneName: 02.Home
+    scenePathList:
+    - sceneName: 02.Home
+      fromGridCell: {x: -11, y: -15}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 01.Field
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: -3, y: 5}
+  - fromSceneName: 02.Home
+    gotoSceneName: 01.Field
+    scenePathList:
+    - sceneName: 01.Field
+      fromGridCell: {x: -3, y: 5}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 02.Home
+      fromGridCell: {x: 99999, y: 999999}
+      gotoGridCell: {x: -11, y: -16}
+  - fromSceneName: 01.Field
+    gotoSceneName: 03.Market
+    scenePathList:
+    - sceneName: 03.Market
+      fromGridCell: {x: -7, y: -15}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 01.Field
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: -31, y: 18}
+  - fromSceneName: 03.Market
+    gotoSceneName: 01.Field
+    scenePathList:
+    - sceneName: 01.Field
+      fromGridCell: {x: -31, y: 18}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 03.Market
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: -7, y: -15}
+  - fromSceneName: 00.Start
+    gotoSceneName: 01.Field
+    scenePathList:
+    - sceneName: 01.Field
+      fromGridCell: {x: 37, y: -3}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 00.Start
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: 17, y: 13}

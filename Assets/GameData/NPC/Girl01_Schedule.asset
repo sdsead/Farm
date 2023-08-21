@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f14c55e838c7e546ba3d0ca7bd72a57, type: 3}
+  m_Name: Girl01_Schedule
+  m_EditorClassIdentifier: 
+  scheduleList:
+  - targetScene: 01.Field
+    hour: 7
+    minute: 2
+    day: 0
+    priority: 0
+    season: 0
+    targetGridPosition: {x: -13, y: -4}
+    clipAtStop: {fileID: 7400000, guid: bf11250c50cd54e0088f71e3578c50ad, type: 2}
+    interactable: 1
+  - targetScene: 02.Home
+    hour: 18
+    minute: 0
+    day: 0
+    priority: 0
+    season: 0
+    targetGridPosition: {x: -13, y: -4}
+    clipAtStop: {fileID: 7400000, guid: bf11250c50cd54e0088f71e3578c50ad, type: 2}
+    interactable: 0
